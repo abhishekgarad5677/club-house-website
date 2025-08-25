@@ -1,5 +1,5 @@
-import knifeHit from "../../public/banner/knife_hit.png";
-import bhideScooterRace from "../../public/banner/bhide_scooter_race.png";
+import knifeHit from "../assets/banner/knife_hit.png";
+import bhideScooterRace from "../assets/banner/bhide_scooter_race.png";
 import BannerSlider from "./BannerSlider";
 
 const Banner = () => {

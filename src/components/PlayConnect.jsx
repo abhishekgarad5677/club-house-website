@@ -1,8 +1,6 @@
-import Bhide_poses from "../../public/play_connect/Bhide_poses.png";
-import phone1 from "../../public/play_connect/phone1.png";
-import phone2 from "../../public/play_connect/phone2.png";
-import phone3 from "../../public/play_connect/phone3.png";
-import icon from "../../public/play_connect/icon.png";
+import Bhide_poses from "../assets/play_connect/Bhide_poses.png";
+import phone1 from "../assets/play_connect/phone1.png";
+import icon from "../assets/play_connect/icon.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -16,12 +14,12 @@ const phoneSlides = [
     icon,
   },
   {
-    img: phone2,
+    img: phone1,
     label: "Log In or Register Create your account to start",
     icon,
   },
   {
-    img: phone3,
+    img: phone1,
     label: "Log In or Register Create your account to start",
     icon,
   },

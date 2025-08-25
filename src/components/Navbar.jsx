@@ -1,11 +1,9 @@
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { FaInstagram, FaPhoneAlt } from "react-icons/fa";
-import { RiFacebookBoxLine } from "react-icons/ri";
-import { MdArrowOutward, MdEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import {  MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
-import logo from "../../public/common/logo.png";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 import { FaFacebook } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -27,7 +25,7 @@ const Navbar = () => {
       <nav aria-label="Global" className="flex items-center justify-between">
         <div className="flex lg:flex-1">
           <Link to={"/"}>
-            <img className="h-[70px]" alt="" src={logo} />
+            <img className="h-[70px]" alt="" src={'/common/Logo.png'} />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -81,7 +79,7 @@ const Navbar = () => {
               <span className="sr-only">Your Company</span>
             </a> */}
             <Link className="-m-1.5 p-1.5" to={"/"}>
-              <img className="h-[100px]" alt="" src={logo} />
+              <img className="h-[100px]" alt="" src={'/common/Logo.png'} />
             </Link>
             <button
               type="button"

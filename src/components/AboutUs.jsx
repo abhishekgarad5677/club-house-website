@@ -1,6 +1,3 @@
-import logo from "../../public/common/logo.png";
-import coins from "../../public/about/coins.png";
-import { div } from "three/tsl";
 import Lottie from "lottie-react";
 import coinAnimation from "../utils/Coins.json";
 
@@ -9,7 +6,7 @@ const AboutUs = () => {
     <div className="mx-20">
       <div className="about-us mt-40 text-center text-white mx-auto w-[65%] space-y-4 relative">
         <div className="flex justify-center mb-6">
-          <img src={logo} alt="" />
+          <img src="/common/Logo.png" alt="Logo" />
         </div>
         <p className="text-[18px] font-bold">About Us</p>
         <h1 className="text-[44px] font-bold">What is the TMKOC Web3 Game?</h1>

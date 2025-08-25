@@ -1,23 +1,20 @@
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-
 // Import required modules
 import { Autoplay } from "swiper/modules";
-import knifeHit from "../../public/banner/swiper-images/8ball_break.png";
-import abdulsort from "../../public/banner/swiper-images/abdulsort.png";
-import Basketballbliz from "../../public/banner/swiper-images/Basketballbliz.png";
-import BhideScooter from "../../public/banner/swiper-images/BhideScooter.png";
-import BubbleShooter from "../../public/banner/swiper-images/BubbleShooter.png";
-import dietmatch from "../../public/banner/swiper-images/dietmatch.png";
-import FruitDart from "../../public/banner/swiper-images/FruitDart.png";
-import JumpBhideJump from "../../public/banner/swiper-images/JumpBhideJump.png";
-import liquidsort from "../../public/banner/swiper-images/liquidsort.png";
+
+import abdulsort from "../assets/banner/swiper-images/abdulsort.png";
+import Basketballbliz from "../assets/banner/swiper-images/Basketballbliz.png";
+import BhideScooter from "../assets/banner/swiper-images/BhideScooter.png";
+import BubbleShooter from "../assets/banner/swiper-images/BubbleShooter.png";
+import dietmatch from "../assets/banner/swiper-images/dietmatch.png";
+import FruitDart from "../assets/banner/swiper-images/FruitDart.png";
+import JumpBhideJump from "../assets/banner/swiper-images/JumpBhideJump.png";
+import liquidsort from "../assets/banner/swiper-images/liquidsort.png";
 
 const BannerSlider = () => {
   return (
