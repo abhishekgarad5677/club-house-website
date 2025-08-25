@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* banner slider css */
+
+.banner-slider .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.banner-slider .swiper-slide img {
+  width: 65%;
+}
+
+.banner-slider .swiper-slide.swiper-slide-active img {
+  width: 100%;
+}
+
+.banner-slider .swiper-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.get-app .swiper-slide.swiper-slide-active img {
+  width: 100%;
+}
+
+.get-app .swiper-slide img {
+  width: 75%;
+}
+
+.get-app .swiper-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.get-app .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+/* .get-app div[data-swiper-slide-index="1"] img {
+  margin-top: 107px;
+  margin-left: 120px;
+} */
+
+/* .get-app div[data-swiper-slide-index="1"] img {
+  margin-top: 107px;
+  margin-left: 120px;
+} */
+
+/* .get-app
+  div[data-swiper-slide-index="1"]:not(.swiper-slide-prev):not(
+    .swiper-slide-active
+  ):not(.swiper-slide-next)
+  > img {
+  margin-top: 107px;
+  margin-left: 120px;
+} */
+
+.play-connect .swiper-button-prev,
+.play-connect .swiper-button-next {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.play-connect .swiper-button-prev:hover,
+.play-connect .swiper-button-next:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.play-connect .swiper-button-prev {
+  left: 10px;
+}
+
+.play-connect .swiper-button-next {
+  right: 10px;
+}
+
+.play-connect .swiper-button-prev::after,
+.play-connect .swiper-button-next::after {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ✅ Hide pagination bullets if any */
+.play-connect .swiper-pagination {
+  display: none !important;
+}
+
+.splash-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
