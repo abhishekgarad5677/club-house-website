@@ -1,10 +1,10 @@
-import icon1 from "../../public/game_highlights/icon1.png";
-import icon2 from "../../public/game_highlights/icon2.png";
-import icon3 from "../../public/game_highlights/icon3.png";
-import icon4 from "../../public/game_highlights/icon4.png";
-import bg1 from "../../public/game_highlights/bg1.png";
-import bg2 from "../../public/game_highlights/bg2.png";
-import coin from "../../public/game_highlights/coin.png";
+import icon1 from "../assets/game_highlights/icon1.png";
+import icon2 from "../assets/game_highlights/icon2.png";
+import icon3 from "../assets/game_highlights/icon3.png";
+import icon4 from "../assets/game_highlights/icon4.png";
+import bg1 from "../assets/game_highlights/bg1.png";
+import bg2 from "../assets/game_highlights/bg2.png";
+import coin from "../assets/game_highlights/coin.png";
 
 const GameHighlights = () => {
   return (
