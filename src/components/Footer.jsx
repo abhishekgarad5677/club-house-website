@@ -1,4 +1,5 @@
 import Footerbottom from "../assets/footer/Footerbottom.png";
+import FooterAnimation from "../assets/footer/FooterAnimation.gif";
 import {
   FaDiscord,
   FaInstagramSquare,
@@ -10,10 +11,10 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="bg-[url(/footer/footerbg.png)] relative bg-top bg-no-repeat bg-cover w-full">
-      <div className="grid grid-cols-6 gap-4 pt-200 items-start pb-120 ">
+    <div className="relative bg-top bg-no-repeat bg-cover w-full">
+      <div className="grid grid-cols-6 gap-4 pt-10 items-start pb-120 ">
         <div className="flex items-center justify-center">
-          <img src={'/common/Logo.png'} alt="" />
+          <img src={"/common/Logo.png"} alt="" />
         </div>
         <div className="text-white text-left">
           <p className="text-bold text-[18px] mb-6">Quick Links</p>
@@ -89,7 +90,16 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      <img className="absolute bottom-0 w-full" src={Footerbottom} alt="" />
+      <img
+        className="absolute bottom-0 w-[45%] left-0 scale-x-[-1]"
+        src={FooterAnimation}
+        alt=""
+      />
+      <img
+        className="absolute bottom-0 w-[45%] right-0"
+        src={FooterAnimation}
+        alt=""
+      />
     </div>
   );
 };
