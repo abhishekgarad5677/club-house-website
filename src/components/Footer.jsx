@@ -1,4 +1,3 @@
-import logo from "../../public/common/logo.png";
 import Footerbottom from "../assets/footer/Footerbottom.png";
 import {
   FaDiscord,
